@@ -8,8 +8,13 @@
     <style>
       body {
         margin: 0;
-        height: 100vh;
+        height: 120vh;
         background-color: #eee;
+      }
+      h5{
+        font-size: 12px;
+        margin: 10px;
+        margin-left: 10%;margin-right: 10%;
       }
       .flex {
         display: flex;
@@ -43,7 +48,7 @@
         color: #666;
       }
       /*当屏幕宽度小于600的时候要改变的css*/
-      @media (max-width: 1300px) {
+      @media (max-width: 2000px) {
         .ceBian {
           display: none;
         }
@@ -65,28 +70,35 @@
           display: none;
         }
       }
+
+      @media (max-width: 700px){
+        .biaoti{
+          display: none;
+        }
+      }
     </style>
   </head>
   <body class="flex">
     <!--侧边栏-->
-    <div style="width: 200px; z-index: 2" class="baiSe shadow">
+    <div style="width: 25%;min-width: 85px;max-width: 200px; z-index: 2" class="baiSe shadow">
       <!--头像栏-->
       <div
         style="
-          padding: 10px;
-          justify-content: center;
+          padding: 8px;
+          padding-left: 20px;
           align-items: center;
           border-bottom: 3px solid #999;
+          max-height: 100px;
         "
         class="flex"
       >
         <img
           alt=""
-          src="https://kangwenchang.com/logo.png"
-          width="40px"
-          height="40px"
+          src="../images/bg.webp"
+          width="50px"
+          height="50px"
         />
-        <p style="margin-left: 10px">属于八班的网站</p>
+        <p style="margin-left: 10px" class="biaoti">八班的网站</p>
       </div>
       <!--导航栏-->
       <div class="flex1 flex column">
@@ -113,13 +125,13 @@
           <a href="./LaoShi.html"><b>老师></b></a>
         </div>
         <div class="daoHang">
-          <a href="./TongXue.html"><b>同学录></b></a>
+          <a href="./TongXue.html"><b>同学></b></a>
         </div>
         <div class="daoHang">
-          <a href="./end.html"><b>写在最后的一段话></b></a>
+          <a href="./end.html"><b>最后></b></a>
         </div>
         <div class="daoHang">
-          <a href="./BanQuan.html"><b>版权与关于></b></a>
+          <a href="./BanQuan.html"><b>关于></b></a>
         </div>
       </div>
     </div>
@@ -146,13 +158,15 @@
             style="height: 600px; align-items: center;padding: 6px;"
             class="baiSe mgt8 shadow flex column"
           >
-            <h3>Copyright[2022]by全体八班成员</h3>
-            <h5>网站全部开源  <a href="https://github.com/Zhe-SH-CN/class8-test01">这是传送门(测试版）</a></h5>
+            <h3>Copyright [2022] by 全体八班成员</h3>
+            <h5>网站全部开源  <a href="https://github.com/Zhe-SH-CN/class8-test02">这是传送门(测试版）</a></h5>
             <h5>技术支持：张思哲</h5>
             <h5>班史提供：刘思齐</h5>
-            <h5>照片提供：严沛灵、袁严右、沈亿昕</h5>
+            <h5>照片提供：严沛灵、袁严右、沈亿昕、王子涵</h5>
             <h5>文字内容提供：（排名不分先后）沈知瑜、张思哲、徐明烨、李宸苒、赵欣怡、李奕晨、陈佳薇、王子涵、
 杨好、沈亿昕、刘思齐、黄子宸、翁天扬、赵遥达</h5>
+<h5 style="margin-bottom: 0;">如有疑问，发邮件至</h5>
+<h5 style="margin-top: 0;"><b><b>1968988211@qq.com</b></b></h5>
           </div>
         </div>
       </div>
