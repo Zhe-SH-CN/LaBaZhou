@@ -1,19 +1,10 @@
-<!--
- * @Author: Zhe-SH-CN 1968988211@qq.com
- * @Date: 2022-07-20 08:15:24
- * @LastEditors: Zhe-SH-CN 1968988211@qq.com
- * @LastEditTime: 2022-07-20 13:38:44
- * @FilePath: \LaBaZhoud:\E-C++\Myweb\class8\test-ranshao\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-
 # LaBaZhou
 
 #### 介绍
 
-“腊八粥”出自沈从文的课文《腊八粥》
-因我们班为八班而取之为名称
-这是一个为上海民办张江集团学校（上海市张江集团中学）2022 届 8 班创作的网站
+1. 名称由来：“腊八粥”出自沈从文的课文《腊八粥》，又因我们班为八班而取之为名称
+2. 这是一个为上海民办张江集团学校（上海市张江集团中学）2022 届 8 班创作的网站
+3. 不商用，靠爱发电
 
 #### 声明
 
@@ -41,5 +32,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-#### 特技
