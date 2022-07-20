@@ -17,8 +17,8 @@
 
 #### 安装教程
 
-1. 网址(推荐)：https://zhe-sh-cn.gitee.io/labazhou
-2. 网址（备用）:https://zhe-sh-cn.github.io/labazhou
+1. 网址(推荐)：https://zhe-sh-cn.gitee.io/LaBazhou
+2. 网址（备用）:https://zhe-sh-cn.github.io/LaBaZhou
 
 #### 使用说明
 
