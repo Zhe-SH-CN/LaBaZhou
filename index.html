@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZJGS2022届八班</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      .flex {
+        display: flex;
+      }
+      .shadow {
+        box-shadow: rgb(0 0 0/ 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daoHang {
+        padding: 15px 20px;
+        border-bottom: 2px solid rgb(190, 190, 190);
+        font-size: 15px;
+        color: #666;
+      }
+      /*当屏幕宽度小于600的时候要改变的css*/
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none;
+        }
+        .neiRongLan {
+          flex-direction: column;
+        }
+        .shuJuQu {
+          flex-direction: column;
+        }
+        .youQu {
+          margin-left: 8px;
+        }
+        .shuJu {
+          margin: 0 0 0;
+          flex: auto;
+        }
+        /*移除滚动条*/
+        .neiRongLan::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!--侧边栏-->
+    <div style="width: 200px; z-index: 2" class="baiSe shadow">
+      <!--头像栏-->
+      <div
+        style="
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 3px solid #999;
+        "
+        class="flex"
+      >
+        <img
+          alt=""
+          src="https://kangwenchang.com/logo.png"
+          width="40px"
+          height="40px"
+        />
+        <p style="margin-left: 10px">属于八班的网站</p>
+      </div>
+      <!--导航栏-->
+      <div class="flex1 flex column">
+        <!--导航条-->
+        <div class="daoHang">
+          <a href="./index.html"><b>首页></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/YuChu.html"><b>预初></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/ChuYi.html"><b>初一></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/ChuEr.html"><b>初二></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/ChuSan.html"><b>初三></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/BanShi.html"><b>班史></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/LaoShi.html"><b>老师></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/TongXue.html"><b>同学录></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/end.html"><b>写在最后的一段话></b></a>
+        </div>
+        <div class="daoHang">
+          <a href="./pages/BanQuan.html"><b>版权与关于></b></a>
+        </div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div
+        style="
+          padding: 8px;
+          height: 60px;
+          z-index: 1;
+          justify-content: center;
+          align-items: center; ;
+        "
+        class="baiSe shadow mg8 flex"
+      >
+        <h1>张江集团2022届八班</h1>
+      </div>
+      <!--内容区-->
+      <div style="overflow: auto" class="flex1 flex shadow neiRongLan">
+        <!--左区-->
+        <div style="flex: 3" class="column flex mg8 shadow">
+          <!--数据区-->
+          <div class="flex">
+            <!--数据块-->
+            <div
+              style="height: 200px; align-items: center"
+              class="shuJu baiSe flex1 flex column mgr8 shadow"
+            >
+              <h3 style="padding: 0px">陈萍萍</h3>
+              <img
+                src="./images/cpp.jpg"
+                width="100px"
+                alt="照片"
+                title="照片"
+              />
+            </div>
+            <div
+              style="height: 200px; align-items: center"
+              class="shuJu baiSe flex1 mgr8 shadow flex column"
+            >
+              <h3 style="padding: 0px">李磊</h3>
+              <img
+                src="./images/ll2.jpg"
+                width="63px"
+                height="126px"
+                alt="照片"
+                title="照片"
+              />
+            </div>
+            <div
+              style="height: 200px; align-items: center"
+              class="shuJu baiSe flex1 mgr8 flex column shadow"
+            >
+              <h3 style="padding: 0px">罗家亮</h3>
+              <img
+                src="./images/ljl.jpg"
+                width="100px"
+                alt="照片"
+                title="照片"
+              />
+            </div>
+            <div
+              style="height: 200px; align-items: center"
+              class="shuJu flex column baiSe flex1 shadow"
+            >
+              <h3 style="padding: 0px">陈杰</h3>
+              <img
+                src="./images/cj.jpg"
+                width="100px"
+                alt="照片"
+                title="照片"
+              />
+              <a href="./pages/LaoShi.html"><h5>所有老师</h5></a>
+            </div>
+          </div>
+          <!--列表区-->
+          <div class="flex column">
+            <!--列表项-->
+            <div
+              style="height: 200px; align-items: center"
+              class="baiSe mgt8 shadow flex column"
+            >
+              <a href="https://www.bilibili.com/video/BV1Vr4y1p7BH">
+                <h5><b>2018年的夏天 我们来啦！（点击跳转</b>）</h5>
+              </a>
+              <img src="./images/01.jpg" width="224px" height="126px" />
+            </div>
+            <div
+              style="height: 200px; align-items: center"
+              class="baiSe mgt8 shadow flex column"
+            >
+              <a href="https://www.bilibili.com/video/BV1EU4y1U7mF"
+                ><h3>那些年，我们参加的艺术节(点击跳转）</h3></a
+              >
+              <img
+                src="./images/art.jpg"
+                alt="艺术节"
+                width="224px"
+                height="126px"
+              />
+            </div>
+            <div
+              style="
+                height: 200px;
+                align-items: center;
+                justify-content: center;
+              "
+              class="baiSe mgt8 shadow flex column"
+            >
+              <a href=""><h3>我们毕业啦</h3></a>
+              <img src="" alt="毕业" width="224px" height="80px" />
+            </div>
+          </div>
+        </div>
+        <!--右区-->
+        <div style="flex: 1" class="youQu column flex mgr8 mgt8 shadow">
+          <!--提示区-->
+          <div style="height: 150px" class="baiSe shadow"></div>
+          <!--消息区-->
+          <div style="height: 300px" class="baiSe mgt8 shadow"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
