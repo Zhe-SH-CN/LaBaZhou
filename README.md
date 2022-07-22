@@ -20,8 +20,8 @@
 
 ## 鸣谢
 
-感谢康文昌老师（B 站 ID：康文昌；@Github：lovekwc）的网页教程
-感谢 oEKLDzLoGxcw（B 站 ID：oEKLDzLoGxcw）的网页实例
+1. 感谢康文昌老师（B 站 ID：康文昌；@Github：lovekwc）的网页教程
+2. 感谢 oEKLDzLoGxcw（B 站 ID：oEKLDzLoGxcw）的网页实例
 
 ## 介绍
 
