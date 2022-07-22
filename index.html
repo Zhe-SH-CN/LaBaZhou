@@ -12,26 +12,38 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/index.css" />
 
-    <title>八班网站</title>
+    <title>腊八粥</title>
   </head>
   <body>
+    <!-- animation -->
+    <div class="animation">
+      <div class="a-container">
+        <div class="circular-progress">
+          <span class="progress-value">0%</span>
+        </div>
+        <span class="text">初中生活已过</span>
+      </div>
+    </div>
+
     <!--==================== HEADER ====================-->
-    <header class="header" id="header">
+    <header class="header close" id="header close">
       <nav class="nav container">
         <a href="#" class="nav__logo"> ZJGS-<span>202208</span> </a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link active-link"> 首页</a>
+              <a href="./pages/home.html#home" class="nav__link active-link">
+                主页</a
+              >
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">关于</a>
+              <a href="./pages/home.html#features" class="nav__link">回顾</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">回顾</a>
+              <a href="./pages/home.html#services" class="nav__link">老师</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">老师</a>
+              <a href="./pages/home.html#newsletter" class="nav__link">信箱</a>
             </li>
           </ul>
           <div class="nav__close" id="nav-close">
@@ -51,22 +63,26 @@
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home">
-        <div class="home__shape-small"></div>
-        <div class="home__shape-big"></div>
-        <img src="./assets/images/shape-bg.png" alt="" class="home__shape-bg" />
+        <div class="home__shape-small close" id="close"></div>
+        <div class="home__shape-big close" id="close"></div>
+        <img
+          src="./assets/images/index/shape-bg.png"
+          alt=""
+          class="home__shape-bg close"
+          id="close"
+        />
 
         <div class="home__container container">
           <div class="home__data">
             <h1 class="home__title">
               这里是
-              <span>2022届八班</span>
-              的网站
+              <span>腊八粥</span>
             </h1>
             <p class="home__description">
               2018年8月12日 我们初逢 <br />
               2022年7月12日 我们分别
             </p>
-            <a href="pages/index.html" class="home__button"
+            <a href="./pages/home.html" class="home__button"
               >进入<i class="ri-arrow-right-s-line"></i
             ></a>
           </div>

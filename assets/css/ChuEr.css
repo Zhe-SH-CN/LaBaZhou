@@ -91,7 +91,7 @@ body {
   padding-block: 16px;
   overflow: hidden;
   transition: 0.35s ease-out;
-  z-index: 4;
+  z-index: 10000;
 }
 
 .header.nav-active {
@@ -155,6 +155,7 @@ body {
 
 .header.nav-active .navbar {
   visibility: visible;
+  z-index: 99999;
 }
 
 .navbar-link {
@@ -170,7 +171,7 @@ body {
   opacity: 1;
 }
 
-.navbar-link:is(:hover, :focus) {
+.navbar-link:is(:hover) {
   color: var(--red-crayola);
 }
 
@@ -254,14 +255,14 @@ body {
 .btn > ion-icon {
   font-size: 16px;
 }
-.btn-primary:is(:hover, :focus) {
+.btn-primary:is(:hover) {
   background: var(--blue-ryb);
 }
 .btn-secondary {
   background: var(--blue-ryb);
   color: var(--white);
 }
-.btn-secondary:is(:hover, :focus) {
+.btn-secondary:is(:hover) {
   background: var(--red-crayola);
 }
 
@@ -365,6 +366,7 @@ body {
 /* BLOG */
 .blog {
   padding-block: var(--section-padding);
+  border-bottom: 2px solid var(--cultured);
 }
 .blog :is(.section-subtitle, .section-title) {
   text-align: center;
@@ -424,16 +426,17 @@ body {
   color: var(--black-coral);
   transition: var(--transition);
 }
-.blog-meta-item .blog-meta-link:is(:hover, :focus) {
+.blog-meta-item .blog-meta-link:is(:hover) {
   color: var(--red-crayola);
   font-size: var(--fs-4);
+  cursor: default;
 }
 .blog-title > a {
   color: inherit;
   transition: var(--transition);
 }
 
-.blog-title > a:is(:hover, :focus) {
+.blog-title > a:is(:hover) {
   color: var(--red-crayola);
   font-size: 20px;
 }
@@ -469,6 +472,7 @@ body {
 /* footer */
 .footer-top {
   padding-block: var(--section-padding);
+  background: var(--cultured);
 }
 .footer .logo {
   margin-bottom: 20px;
@@ -517,7 +521,7 @@ body {
   font-size: var(--fs-4);
   transition: var(--transition);
 }
-.quicklink:is(:hover, :focus) {
+.quicklink:is(:hover) {
   color: var(--red-crayola);
 }
 
@@ -563,7 +567,7 @@ body {
   font-size: var(--fs-4);
   transition: var(--transition);
 }
-.contact-link:is(:hover, :focus) {
+.contact-link:is(:hover) {
   color: var(--red-crayola);
 }
 .footer-bottom {
@@ -584,7 +588,7 @@ body {
   transition: var(--transition);
 }
 
-.copyright > a:is(:hover, :focus) {
+.copyright > a:is(:hover) {
   color: var(--red-crayola);
 }
 .social-list {
@@ -604,7 +608,7 @@ body {
   transition: var(--transition);
 }
 
-.social-link:is(:hover, :focus) {
+.social-link:is(:hover) {
   color: var(--red-crayola);
 }
 
@@ -633,9 +637,206 @@ body {
   transform: translateY(0);
   visibility: visible;
 }
-.go-top:is(:hover, :focus) {
+.go-top:is(:hover) {
   background: var(--black-coral);
   color: var(--white);
+}
+
+.pic {
+  margin-top: 74px;
+  width: 100%;
+  height: 500px;
+  /* border: 4px solid #888; */
+  overflow: hidden;
+  /* background: linear-gradient(#1d2b48, #4f4266); */
+  background: var(--cultured);
+}
+.out {
+  max-width: 800px;
+  width: 80%;
+  height: 200px;
+  position: relative;
+  /* border: 4px solid #000; */
+  margin: 0 auto;
+  /* margin */
+  top: 50px;
+}
+.out .inner {
+  padding-left: 45px;
+  width: 100%;
+  /* border: 4px solid #fff; */
+  height: 100%;
+}
+.out .inner .img {
+  width: 300px;
+  /* height: 267px; */
+  /* width: 40%; */
+  position: absolute;
+  transition: 0.3s;
+}
+.out .inner .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.out .arrow {
+  /* border: 4px solid #333; */
+  font-size: 32px;
+}
+.out .arrow i {
+  position: relative;
+  color: var(--black-coral);
+  z-index: 9999;
+  cursor: pointer;
+  top: -100px;
+  font-size: 40px;
+  font-weight: 600;
+}
+/* .out .arrow .left {
+  left: -50px; 
+} */
+.out .arrow .right {
+  left: 700px;
+}
+.out .button {
+  /* border: 4px solid #111; */
+  width: 220px;
+  height: 30px;
+  /* position:relative; */
+  z-index: 9999;
+  margin: 0 auto;
+  margin-top: 60px;
+  /* transform: translateY(100%); */
+  /* transform: translateX(-35%); */
+}
+.roll-p {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 5px;
+  background: silver;
+}
+
+.roll-p:first-child {
+  background: rgb(20, 134, 187);
+}
+.roll-p:hover {
+  cursor: pointer;
+}
+/* 设置id样式 */
+.out #last {
+  transform: translateX(0);
+  z-index: 9;
+  opacity: 1;
+}
+.out #first {
+  transform: translateX(200px) scale(1.3);
+  z-index: 99;
+  opacity: 1;
+}
+.out #second {
+  transform: translateX(400px);
+  z-index: 9;
+  opacity: 1;
+}
+.out #left {
+  transform: translateX(-100px);
+  z-index: 1;
+  opacity: 0;
+}
+.out #right {
+  transform: translateX(500px);
+  z-index: 1;
+  opacity: 0;
+}
+.pic-roll {
+  border-top: 1px solid var(--cultured);
+  border-bottom: 1px solid var(--cultured);
+  /* background: linear-gradient(#1d2b48, #4f4266); */
+  background: var(--cultured);
+  margin-top: 75px;
+  width: 100%;
+}
+.roll-description {
+  /* z-index: 99; */
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+
+  font-weight: 700;
+}
+.roll-description h3 {
+  font-size: 35px;
+  /* color: var(--white); */
+}
+.pic .roll-description {
+  margin-bottom: 0;
+}
+
+.roll {
+  margin: 0px auto;
+  width: 90%;
+  overflow: hidden;
+  /* border: 1px solid #333; */
+  position: relative;
+  height: 267px;
+  margin-bottom: 50px;
+}
+.roll .list {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.roll .list img {
+  width: 100%;
+  height: auto;
+}
+.list div {
+  width: 384px;
+  height: 267px;
+  margin-right: 10px;
+  /* background: #147ecb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .list div:nth-child(6n + 1) {
+  background-color: #ec3945;
+}
+.list div:nth-child(6n + 2) {
+  background: #9d7ae9;
+}
+.list div:nth-child(6n + 3) {
+  background: teal;
+}
+.list div:nth-child(6n + 4) {
+  background: darkslategray;
+}
+.list div:nth-child(6n + 5) {
+  background: orange;
+} */
+.pic-roll {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  .pic {
+    display: none;
+  }
+  .pic-roll {
+    display: block;
+  }
+}
+#service1 {
+  background: var(--white);
 }
 /* 宽屏下的css 像素>575px */
 @media (min-width: 575px) {
@@ -725,7 +926,7 @@ body {
   }
 }
 /* 宽屏下的css 像素>992px */
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   /* base font size */
   html {
     font-size: 18px;

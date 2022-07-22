@@ -2,8 +2,19 @@ body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
-
+  text-decoration: none;
   background: linear-gradient(135deg, #4bc0c8, #c779d0, #feac5e);
+}
+.nav {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+.nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
 }
 .box {
   height: 80vh;

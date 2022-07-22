@@ -1,0 +1,87 @@
+:root {
+  /* 颜色 */
+  --space-cadet: hsl(224, 48%, 22%);
+  --red-crayola: hsl(342, 100%, 50%);
+  --black-coral: hsl(219, 13%, 44%);
+  --blue-ryb: hsl(244, 86%, 59%);
+  --cultured: hsl(0, 0%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  /* 格式 */
+  --ff-be-vietnam-pro: "Be Vietnam Pro", sans-serif;
+
+  --fs-1: 1.875rem;
+  --fs-2: 1.5rem;
+  --fs-3: 1.063rem;
+  --fs-4: 0.875rem;
+  --fs-5: 0.813rem;
+
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* 过渡 */
+  --transition: 0.25s ease;
+  --transition-2: 0.5s ease;
+
+  /* 间距 */
+  --section-padding: 60px;
+
+  /* 圆角 */
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+button,
+ion-icon {
+  display: block;
+}
+input,
+button {
+  background: none;
+  border: none;
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+input {
+  width: 100%;
+}
+html {
+  font-family: var(--ff-be-vietnam-pro);
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--white);
+}
+.nav {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+.nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
