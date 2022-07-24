@@ -72,6 +72,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -284,6 +285,7 @@ img {
 }
 .home__data {
   z-index: 999;
+  /* height: 500px; */
 }
 .home__title span {
   display: block;
@@ -488,7 +490,7 @@ img {
   }
 }
 /* For large devices */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1081px) {
   .home__images {
     width: 530px;
     height: 590px;

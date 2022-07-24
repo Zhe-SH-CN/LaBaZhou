@@ -5,6 +5,11 @@ body {
   text-decoration: none;
   background: linear-gradient(135deg, #4bc0c8, #c779d0, #feac5e);
 }
+p {
+  font-family: "楷体";
+  font-weight: 600;
+  font-size: 20px;
+}
 .nav {
   position: fixed;
   top: 1rem;
@@ -40,4 +45,7 @@ body {
 }
 .box::-webkit-scrollbar {
   display: none; /* Chrome Safari */
+}
+span {
+  color: red;
 }
