@@ -734,7 +734,7 @@ body {
   }
 }
 /* 宽屏下的css 像素>992px */
-@media (min-width: 1081px) {
+@media (min-width: 1200px) {
   /* base font size */
   html {
     font-size: 18px;
