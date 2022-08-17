@@ -7,12 +7,12 @@
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
-# LaBaZhou v0.2.4
+# LaBaZhou v1.0.0 第一个正式版
 
 ## 鸣谢
 
-1. 感谢康文昌老师（B 站 ID：康文昌；@Github：lovekwc）的网页教程
-2. 感谢 oEKLDzLoGxcw（B 站 ID：oEKLDzLoGxcw）的网页实例
+1. 感谢康文昌老师（B 站 ID：康文昌；@Github：lovekwc）的网页教程 B 站:<https://space.bilibili.com/34786453>
+2. 感谢 oEKLDzLoGxcw（B 站 ID：oEKLDzLoGxcw）的网页实例 B 站:<https://space.bilibili.com/15037261>
 
 ## 介绍
 
