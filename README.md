@@ -7,7 +7,7 @@
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
-# LaBaZhou v0.2.3.2
+# LaBaZhou v0.2.4
 
 ## 鸣谢
 
@@ -33,7 +33,7 @@
 
 1. 网址(推荐)：<https://zhe-sh-cn.gitee.io>
 2. 网址（备用）:<https://zhe-sh-cn.github.io/LaBaZhou>
-3. 班史：<https://docs.qq.com/doc/DTXBPV0Vsc3ZLQWlH>
+3. 班史：<https://zhe-sh-cn.gitee.io/banshi/>
 
 ## 使用说明
 
